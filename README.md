@@ -1,3 +1,7 @@
+## What is this?
+
+A simple Toods web app written using React, Redux and TypeScript.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
