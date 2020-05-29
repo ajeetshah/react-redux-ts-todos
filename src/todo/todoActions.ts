@@ -5,21 +5,21 @@ export const REMOVE_TODO = 'REMOVE_TODO'
 
 // Action creators
 
-export interface PayloadTodo {
+export interface TodoItem {
   id: string
   text?: string
   completed?: boolean
   addedAt?: string
 }
 
-export const addTodo = (payload: PayloadTodo) => {
+export const addTodo = (payload: TodoItem) => {
   return { type: ADD_TODO, payload }
 }
 
-export const completeTodo = (payload: PayloadTodo) => {
+export const completeTodo = (payload: TodoItem) => {
   return { type: COMPLETE_TODO, payload }
 }
 
-export const removeTodo = (payload: PayloadTodo) => {
+export const removeTodo = (payload: TodoItem) => {
   return { type: REMOVE_TODO, payload }
 }
