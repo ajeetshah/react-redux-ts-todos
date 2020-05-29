@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import App from '../app/app'
-import Todos from '../todos/todos'
+import Todo from '../todo/todo'
 
 const Routes = () => {
   return (
@@ -11,8 +11,8 @@ const Routes = () => {
           <Route exact path="/">
             <App />
           </Route>
-          <Route exact path="/todos">
-            <Todos />
+          <Route exact path="/todo">
+            <Todo />
           </Route>
         </Switch>
       </Switch>
