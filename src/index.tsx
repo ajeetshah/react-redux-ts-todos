@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import Routes from './routes/routes'
 import { Provider } from 'react-redux'
 import store from './store/store'
 import * as serviceWorker from './serviceWorker'
+
+import './index.css'
+import 'react-datepicker/dist/react-datepicker.css'
 
 ReactDOM.render(
   <React.StrictMode>

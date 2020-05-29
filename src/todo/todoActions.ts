@@ -9,7 +9,7 @@ export interface TodoItem {
   id: string
   text?: string
   completed?: boolean
-  addedAt?: string
+  addedAt?: Date | null
 }
 
 export const addTodo = (payload: TodoItem) => {
