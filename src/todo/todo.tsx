@@ -4,6 +4,8 @@ import shortid from 'shortid'
 import DatePicker from 'react-datepicker'
 import { StoreState } from '../store/store'
 import { addTodo, completeTodo, removeTodo, TodoItem } from './todoActions'
+import LoadImages from '../loadImages/loadImages'
+// import { Line } from 'react-chartjs-2'
 
 const Todo = () => {
   const dispatch = useDispatch()
