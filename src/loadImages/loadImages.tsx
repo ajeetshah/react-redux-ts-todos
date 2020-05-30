@@ -1,7 +1,7 @@
 import React from 'react'
 
-const publicPath = '/assets/images/' // 1
-const innerPath = '../images/abcd_efgh_1.png'
+// const publicPath = '/assets/images/' // 1
+// const innerPath = '../images/abcd_efgh_1.png'
 
 const Card = ({ src }: any) => {
   return (
