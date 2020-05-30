@@ -48,7 +48,8 @@ const Todo = () => {
   }
 
   return (
-    <div style={{ marginTop: 120, marginLeft: 100 }}>
+    <div style={{ marginTop: 50, marginLeft: 50 }}>
+      <LoadImages />
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Add todo" onChange={handleChange} value={value} />
         <DatePicker
