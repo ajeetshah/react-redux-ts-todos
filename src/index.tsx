@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker'
 
 import './index.css'
 import 'react-datepicker/dist/react-datepicker.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.render(
   <React.StrictMode>

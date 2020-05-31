@@ -1,6 +1,18 @@
-## What is this?
+## Libraries
 
-A simple Toods web app written using React, Redux and TypeScript.
+- Bootstrap
+- Formik
+- React
+- React router
+- Redux
+- Typescript
+
+## Examples
+
+- Dynamic require
+- Form
+- Routing
+- Todo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

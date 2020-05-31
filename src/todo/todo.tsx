@@ -4,8 +4,6 @@ import shortid from 'shortid'
 import DatePicker from 'react-datepicker'
 import { StoreState } from '../store/store'
 import { addTodo, completeTodo, removeTodo, TodoItem } from './todoActions'
-import LoadImages from '../loadImages/loadImages'
-// import { Line } from 'react-chartjs-2'
 
 const Todo = () => {
   const dispatch = useDispatch()
@@ -49,7 +47,6 @@ const Todo = () => {
 
   return (
     <div style={{ marginTop: 50, marginLeft: 50 }}>
-      <LoadImages />
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Add todo" onChange={handleChange} value={value} />
         <DatePicker
