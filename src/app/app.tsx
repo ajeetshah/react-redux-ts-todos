@@ -18,6 +18,9 @@ function App() {
         <Link to={paths.formikForm} className="App-link">
           Formik Form
         </Link>
+        <Link to={paths.exportExcel} className="App-link">
+          Export excel
+        </Link>
       </header>
     </div>
   )

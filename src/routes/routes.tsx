@@ -4,11 +4,13 @@ import App from '../app/app'
 import Todo from '../todo/todo'
 import FormikForm from '../formik/formik'
 import LoadImages from '../loadImages/loadImages'
+import ExportExcel from '../compoents/exportExcel'
 
 export const paths = {
   todo: '/todo',
   formikForm: '/formik-form',
   loadImages: '/load-images',
+  exportExcel: '/export-excel',
 }
 
 const Routes = () => {
@@ -27,6 +29,9 @@ const Routes = () => {
           </Route>
           <Route exact path={paths.loadImages}>
             <LoadImages />
+          </Route>
+          <Route exact path={paths.exportExcel}>
+            <ExportExcel />
           </Route>
         </Switch>
       </Switch>
