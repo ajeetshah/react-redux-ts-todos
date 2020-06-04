@@ -10,6 +10,7 @@
 ## Examples
 
 - Dynamic require
+- Excel export
 - Form
 - Routing
 - Todo

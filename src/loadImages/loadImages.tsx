@@ -1,14 +1,12 @@
 import React from 'react'
-
-// const publicPath = '/assets/images/' // 1
-// const innerPath = '../images/abcd_efgh_1.png'
+// const anyImage = 'abcd_efgh_1'
+// require('../images/' + anyImage + '.png')
 
 const Card = ({ src }: any) => {
   return (
     <div className="bg-light-green dib br3 pa3 ma2 grow bw db w-20">
-      {/* <img className="personal " alt="robots" src={publicPath + src} /> */} {/* 1 */}
-      {/* <img className="personal " alt="robots" src={require(`../images/${src}`)} /> */}
       <img className="personal " alt="robots" src={require('../images/' + src)} />
+      {/* <img className="personal " alt="robots" src={require(src)} /> */}
     </div>
   )
 }
@@ -24,6 +22,17 @@ const LoadImages = () => {
     'abcd_efgh_7.png',
     'abcd_efgh_8.png',
     'abcd_efgh_9.png',
+  ]
+  const images2 = [
+    '../images/abcd_efgh_1.png',
+    '../images/abcd_efgh_2.png',
+    '../images/abcd_efgh_3.png',
+    '../images/abcd_efgh_4.png',
+    '../images/abcd_efgh_5.png',
+    '../images/abcd_efgh_6.png',
+    '../images/abcd_efgh_7.png',
+    '../images/abcd_efgh_8.png',
+    '../images/abcd_efgh_9.png',
   ]
   return (
     <>
