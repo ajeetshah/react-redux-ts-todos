@@ -12,7 +12,7 @@
     "file-saver": "^2.0.2",
     "formik": "^2.1.4",
     "json-loader": "^0.5.7",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-data-export": "^0.6.0",
